@@ -1,0 +1,236 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BoostIntSet	./graph.h	/^typedef boost::container::flat_set<int> BoostIntSet;$/;"	t
+ChangeableEdgeSetIterator	./graph.h	/^typedef EdgeSet::iterator ChangeableEdgeSetIterator;$/;"	t
+ChangeableVertexIterator	./graph.h	/^typedef VertexSet::iterator ChangeableVertexIterator;$/;"	t
+ConstEdgeSetIterator	./graph.h	/^typedef EdgeSet::const_iterator ConstEdgeSetIterator;$/;"	t
+ConstMapIterator	./graph.h	/^typedef	std::map<int,int> ::const_iterator ConstMapIterator;$/;"	t
+ConstVertexIterator	./graph.h	/^typedef VertexSet::const_iterator ConstVertexIterator;$/;"	t
+DFSVISIT	./dfs.cpp	/^void randommining::DFSVISIT(Vertex* u)$/;"	f	class:randommining
+EDGELABEL	./graph.h	18;"	d
+Edge	./graph.h	/^	Edge( Vertex* start,  Vertex* ed, int  label)$/;"	f	class:Edge
+Edge	./graph.h	/^	Edge(){}$/;"	f	class:Edge
+Edge	./graph.h	/^class Edge{$/;"	c
+EdgePair	./graph.h	/^	EdgePair(int stx,int endx,int stl, int endl,int edgel)$/;"	f	struct:EdgePair
+EdgePair	./graph.h	/^struct EdgePair{$/;"	s
+EdgeSet	./graph.h	/^typedef boost::container::flat_set<Edge*,compareE> EdgeSet;$/;"	t
+EdgeVector	./graph.h	/^typedef	vector<Edge*> EdgeVector;$/;"	t
+GRAPH_H_	./graph.h	2;"	d
+GraphClassPtr	./graph.h	/^typedef graph* GraphClassPtr;$/;"	t
+INCLUDE_STRINGTOKENIZER_H	./StringTokenizer.h	19;"	d
+Lastestcancode	./randomMining.h	/^	string Lastestcancode;$/;"	m	class:randommining
+NODELABEL	./graph.h	17;"	d
+ProcessInputFile	./randomMining.cpp	/^void randommining::ProcessInputFile()$/;"	f	class:randommining
+Qsize	./randomMining.h	/^	int sizeOfSubgrah,supportValue,temp[10],Qsize,fillerlength;$/;"	m	class:randommining
+RANDOMMINING_H	./randomMining.h	9;"	d
+StringTokenizer	./StringTokenizer.cpp	/^StringTokenizer::StringTokenizer(const std::string& _str, const std::string& _delim)$/;"	f	class:StringTokenizer
+StringTokenizer	./StringTokenizer.h	/^class StringTokenizer$/;"	c
+Vertex	./graph.h	/^	Vertex(){$/;"	f	class:Vertex
+Vertex	./graph.h	/^	Vertex(int lab, int gbl)$/;"	f	class:Vertex
+Vertex	./graph.h	/^        Vertex(int lab)$/;"	f	class:Vertex
+Vertex	./graph.h	/^class Vertex{$/;"	c
+VertexSet	./graph.h	/^typedef	boost::container::flat_set<Vertex*,compareV> VertexSet;$/;"	t
+VertexVector	./graph.h	/^typedef	vector<Vertex*> VertexVector;$/;"	t
+_RANDOM_H_	./random.h	2;"	d
+_lij	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+absmine	./randomMining.cpp	/^int randommining::absmine(int a,int b)$/;"	f	class:randommining
+addEdge	./graph.cpp	/^void graph::addEdge(Edge* E)$/;"	f	class:graph
+addVertex	./graph.cpp	/^void graph::addVertex(Vertex* v)$/;"	f	class:graph
+algoiteration	./randomMining.h	/^	size_t algoiteration;   $/;"	m	class:randommining
+allcomponents	./randomMining.h	/^	vector<set<Vertex*> >allcomponents;$/;"	m	class:randommining
+biggraphvertex	./graph.h	/^	VertexVector biggraphvertex;$/;"	m	class:graph
+boost_get_a_random_number	./random.cpp	/^unsigned int boost_get_a_random_number(int lowest, int highest) {$/;"	f
+calculateConcentration	./randomMining.cpp	/^void randommining::calculateConcentration()$/;"	f	class:randommining
+canonicalcodeResources	./graph.h	/^	std::list<canonicalcodeStruc*> canonicalcodeResources;$/;"	m	class:myobjectpool
+canonicalcodeStruc	./graph.h	/^        canonicalcodeStruc(){$/;"	f	class:canonicalcodeStruc
+canonicalcodeStruc	./graph.h	/^        canonicalcodeStruc(canonicalcodeStruc* code)$/;"	f	class:canonicalcodeStruc
+canonicalcodeStruc	./graph.h	/^class canonicalcodeStruc{$/;"	c
+childList	./graph.h	/^	vector<Vertex*>childList;$/;"	m	class:Vertex
+cindex	./randomMining.h	/^	int iCodeStage,cindex; $/;"	m	class:randommining
+code	./graph.h	/^        string code;$/;"	m	class:heapData
+code	./randomMining.h	/^	std::vector<canonicalcodeStruc*> code;$/;"	m	class:randommining
+codeGenTime	./randomMining.h	/^	double sampleTime,codeGenTime, insertHeapTime;$/;"	m	class:randommining
+code_set	./codeset.h	/^> code_set;$/;"	t
+codetuples	./graph.h	/^        std::vector<fiveTuple*>codetuples; \/\/newly added$/;"	m	class:canonicalcodeStruc
+codex	./graph.h	/^class codex{};$/;"	c
+color	./graph.h	/^	int color;$/;"	m	class:Vertex
+compareE	./graph.h	/^class compareE { $/;"	c
+compareV	./graph.h	/^class compareV { $/;"	c
+comparecodesAndInsert	./canonicalcode.cpp	/^bool randommining:: comparecodesAndInsert (canonicalcodeStruc *newcode)$/;"	f	class:randommining
+componentlist	./randomMining.h	/^	set<Vertex*>componentlist;$/;"	m	class:randommining
+count	./graph.h	/^	int count;$/;"	m	class:heapData
+countTokens	./StringTokenizer.cpp	/^int StringTokenizer::countTokens()$/;"	f	class:StringTokenizer
+countconcentration	./graph.h	/^	double countconcentration;$/;"	m	class:heapData
+cumdfrac	./graph.h	/^	double cumdfrac;$/;"	m	class:heapData
+datafile	./randomMining.h	/^	char *datafile;$/;"	m	class:randommining
+degreeconcentration	./graph.h	/^	double degreeconcentration;$/;"	m	class:heapData
+delim	./StringTokenizer.h	/^    std::string  delim;$/;"	m	class:StringTokenizer
+dfsGraph	./randomMining.h	/^	graph* dfsGraph;$/;"	m	class:randommining
+dfscodemap	./graph.h	/^        map<int,int>dfscodemap;$/;"	m	class:canonicalcodeStruc
+dfsend	./graph.h	/^public: int dfsst, dfsend;$/;"	m	class:fiveTuple
+dfsst	./graph.h	/^public: int dfsst, dfsend;$/;"	m	class:fiveTuple
+dgx	./randomMining.h	/^	int dgx,dgy;$/;"	m	class:randommining
+dgy	./randomMining.h	/^	int dgx,dgy;$/;"	m	class:randommining
+directioncode	./randomMining.h	/^	string directioncode,tempdirectioncode;$/;"	m	class:randommining
+doDFS	./dfs.cpp	/^void randommining::doDFS()$/;"	f	class:randommining
+edgeResources	./graph.h	/^	std::list<Edge*> edgeResources;$/;"	m	class:myobjectpool
+edgelabel	./graph.h	/^	int edgelabel;$/;"	m	class:Edge
+edgelabel	./graph.h	/^	int edgelabel;$/;"	m	struct:EdgePair
+edgelabel	./graph.h	/^        int stlabel,edgelabel,endlabel;$/;"	m	class:fiveTuple
+edges	./graph.h	/^        std::vector<Edge*> edges;$/;"	m	class:canonicalcodeStruc
+end	./graph.h	/^	int end;$/;"	m	struct:EdgePair
+end	./graph.h	/^        Vertex  *end;$/;"	m	class:Edge
+endlabel	./graph.h	/^	int endlabel;$/;"	m	struct:EdgePair
+endlabel	./graph.h	/^        int stlabel,edgelabel,endlabel;$/;"	m	class:fiveTuple
+ev	./graph.h	/^	EdgeVector ev;$/;"	m	class:graph
+fillerlength	./randomMining.h	/^	int sizeOfSubgrah,supportValue,temp[10],Qsize,fillerlength;$/;"	m	class:randommining
+filterNextToken	./StringTokenizer.cpp	/^std::string StringTokenizer::filterNextToken(const std::string& filterStr)$/;"	f	class:StringTokenizer
+fiveTuple	./graph.h	/^	fiveTuple(){}$/;"	f	class:fiveTuple
+fiveTuple	./graph.h	/^        fiveTuple(int dfsSt,int dfsEnd,int stLabel, int edgeLabel, int endLabel)$/;"	f	class:fiveTuple
+fiveTuple	./graph.h	/^class fiveTuple$/;"	c
+fiveTupleResources	./graph.h	/^	std::list<fiveTuple*> fiveTupleResources;$/;"	m	class:myobjectpool
+freeCodex	./canonicalcode.cpp	/^void randommining::freeCodex(canonicalcodeStruc* codex)$/;"	f	class:randommining
+gTot	./randomMining.h	/^	int gTot,nIter,totsup;$/;"	m	class:randommining
+generateAnEdge	./canonicalcode.cpp	/^bool randommining::generateAnEdge(Vertex* endvertex, canonicalcodeStruc *it)$/;"	f	class:randommining
+getCutVertices	./dfs.cpp	/^set<int> randommining::getCutVertices()$/;"	f	class:randommining
+getEResource	./graph.h	/^	Edge* getEResource()$/;"	f	class:myobjectpool
+getFiveTupleResource	./graph.h	/^	fiveTuple* getFiveTupleResource()$/;"	f	class:myobjectpool
+getGResource	./graph.h	/^	graph* getGResource()$/;"	f	class:myobjectpool
+getRandomInitialSubgraph	./randomMining.cpp	/^void randommining::getRandomInitialSubgraph()$/;"	f	class:randommining
+getVResource	./graph.h	/^	Vertex* getVResource()$/;"	f	class:myobjectpool
+get_a_random_number	./random.cpp	/^unsigned int get_a_random_number(int lowest, int highest) {$/;"	f
+getcancodeResource	./graph.h	/^	canonicalcodeStruc* getcancodeResource()$/;"	f	class:myobjectpool
+getcanonicalCode	./randomMining.cpp	/^void randommining:: getcanonicalCode(){$/;"	f	class:randommining
+getfirstlabelCanonicalCode	./canonicalcode.cpp	/^void randommining:: getfirstlabelCanonicalCode()$/;"	f	class:randommining
+getheapDataResources	./graph.h	/^	heapData* getheapDataResources()$/;"	f	class:myobjectpool
+gettwoVertexGraph	./randomMining.cpp	/^void randommining::gettwoVertexGraph()$/;"	f	class:randommining
+globallabel	./graph.h	/^	int  globallabel;$/;"	m	class:Vertex
+graph	./graph.cpp	/^graph::graph()$/;"	f	class:graph
+graph	./graph.h	/^class graph{$/;"	c
+graphIndex	./randomMining.h	/^	int graphIndex,gxpopcount,gypopcount,uniqgxpopcount,uniqgypopcount;$/;"	m	class:randommining
+graphResources	./graph.h	/^	std::list<graph*> graphResources;$/;"	m	class:myobjectpool
+graphidsx	./graph.h	/^class graphidsx{};$/;"	c
+gxpopcount	./randomMining.h	/^	int graphIndex,gxpopcount,gypopcount,uniqgxpopcount,uniqgypopcount;$/;"	m	class:randommining
+gxpopulation	./randomMining.h	/^	vector<set<Vertex*> > gxpopulation;$/;"	m	class:randommining
+gypopcount	./randomMining.h	/^	int graphIndex,gxpopcount,gypopcount,uniqgxpopcount,uniqgypopcount;$/;"	m	class:randommining
+gypopulation	./randomMining.h	/^	vector<set<Vertex*> > gypopulation;$/;"	m	class:randommining
+hasMoreTokens	./StringTokenizer.cpp	/^bool StringTokenizer::hasMoreTokens()$/;"	f	class:StringTokenizer
+heapData	./graph.h	/^	heapData(string codex,double dfrac):code(codex),cumdfrac(dfrac){$/;"	f	class:heapData
+heapData	./graph.h	/^        heapData(){$/;"	f	class:heapData
+heapData	./graph.h	/^class heapData{$/;"	c
+heapDataResources	./graph.h	/^	std::list<heapData*> heapDataResources;$/;"	m	class:myobjectpool
+i	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+i1	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+i2	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+iCodeStage	./randomMining.h	/^	int iCodeStage,cindex; $/;"	m	class:randommining
+id_record_length	./codeset.h	/^int  id_record_length(const heapData &d)$/;"	f
+ifprint	./randomMining.h	/^	bool tempbool[10],ifprint;$/;"	m	class:randommining
+insert	./canonicalcode.cpp	/^void randommining::insert(bool how, Vertex* st, Vertex* end, int edgelabel)\/\/0 for st->end and 1 for end->st$/;"	f	class:randommining
+insertHeapTime	./randomMining.h	/^	double sampleTime,codeGenTime, insertHeapTime;$/;"	m	class:randommining
+insertIntoHeap	./randomMining.cpp	/^void randommining::insertIntoHeap()$/;"	f	class:randommining
+isEEqual	./graph.h	/^class isEEqual{$/;"	c
+isGraphConnected	./dfs.cpp	/^bool randommining::isGraphConnected()$/;"	f	class:randommining
+is_fwd	./randomMining.h	/^	bool is_fwd,rhs_is_fwd;$/;"	m	class:randommining
+isundir	./randomMining.h	/^	bool isundir;$/;"	m	class:randommining
+j	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+j1	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+j2	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+k	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+label	./graph.h	/^        int label;$/;"	m	class:Vertex
+list	./graph.h	/^        boost::container::flat_set<Vertex*>list;$/;"	m	class:Vertex
+lowv	./graph.h	/^	int lowv;\/* for examining the cut edge *\/$/;"	m	class:Vertex
+main	./randomMiner.cpp	/^int main(int argc, char *argv[]) $/;"	f
+makeFillerForString	./randomMining.cpp	/^string randommining:: makeFillerForString(string mystring)$/;"	f	class:randommining
+maxcode	./graph.h	/^        int maxcode;$/;"	m	class:canonicalcodeStruc
+microsec	./randomMining.h	/^	double  microsec;$/;"	m	class:randommining
+myGraphSet	./randomMining.h	/^	std::vector<GraphClassPtr> myGraphSet;$/;"	m	class:randommining
+mycodeset	./codeset.h	/^code_set mycodeset;$/;"	v
+myedges	./graph.h	/^	EdgeSet myedges;$/;"	m	class:graph
+myid	./graph.h	/^	int myid;$/;"	m	class:graph
+myobjectpool	./graph.h	/^class myobjectpool{$/;"	c
+myobjectpool	./graph.h	/^public:	myobjectpool() {}$/;"	f	class:myobjectpool
+mysetTemp	./randomMining.h	/^	set<Vertex*>mysetTemp;$/;"	m	class:randommining
+myverts	./graph.h	/^	VertexSet myverts;$/;"	m	class:graph
+nIter	./randomMining.h	/^	int gTot,nIter,totsup;$/;"	m	class:randommining
+newlevelcode	./randomMining.h	/^	std::vector<canonicalcodeStruc*>newlevelcode;$/;"	m	class:randommining
+nextFloatToken	./StringTokenizer.cpp	/^double StringTokenizer::nextFloatToken()$/;"	f	class:StringTokenizer
+nextIntToken	./StringTokenizer.cpp	/^int StringTokenizer::nextIntToken()$/;"	f	class:StringTokenizer
+nextToken	./StringTokenizer.cpp	/^std::string StringTokenizer::nextToken()$/;"	f	class:StringTokenizer
+nextToken	./StringTokenizer.cpp	/^std::string StringTokenizer::nextToken(const std::string& delimiter)$/;"	f	class:StringTokenizer
+noofGraphs	./randomMining.h	/^	unsigned int noofIteration,noofGraphs;$/;"	m	class:randommining
+noofIteration	./randomMining.h	/^	unsigned int noofIteration,noofGraphs;$/;"	m	class:randommining
+numE	./graph.h	/^	int numE;$/;"	m	class:graph
+numV	./graph.h	/^	int numV;$/;"	m	class:graph
+operator ()	./graph.h	/^      inline bool operator()(const Edge   *x,const Edge *y)const{ $/;"	f	class:compareE
+operator ()	./graph.h	/^     inline bool operator()(const Vertex *x,const Vertex  *y)const{ $/;"	f	class:compareV
+operator ()	./graph.h	/^    inline bool operator()(const Edge *x, const Edge *y)const{$/;"	f	class:isEEqual
+operator <<	./graph.h	/^	friend std::ostream& operator<<(std::ostream& os,const heapData& e)$/;"	f	class:heapData
+operator ==	./graph.h	/^        bool operator==(const heapData* other)const{$/;"	f	class:heapData
+parent	./graph.h	/^	int parent;$/;"	m	class:Vertex
+parseArgs	./randomMining.cpp	/^void randommining::parseArgs(int argc, char* argv[]) {$/;"	f	class:randommining
+pool	./randomMining.h	/^	myobjectpool *pool;$/;"	m	class:randommining
+populateEdges	./randomMining.cpp	/^void randommining::populateEdges()$/;"	f	class:randommining
+populateNextLevels	./canonicalcode.cpp	/^void randommining::populateNextLevels()$/;"	f	class:randommining
+printAdjacencyList	./graph.cpp	/^void graph:: printAdjacencyList()$/;"	f	class:graph
+printAdjacencyListBig	./graph.cpp	/^void graph:: printAdjacencyListBig()$/;"	f	class:graph
+printCanonicalCode	./canonicalcode.cpp	/^void randommining:: printCanonicalCode()$/;"	f	class:randommining
+printHeap	./randomMining.cpp	/^void randommining::printHeap()$/;"	f	class:randommining
+printUsage	./randomMining.h	/^    	void printUsage(char *progname) {$/;"	f	class:randommining
+print_out_by	./codeset.h	/^void print_out_by($/;"	f
+randomWithDiscreteProbability	./random.cpp	/^unsigned int randomWithDiscreteProbability(const vector<double>& accum_prob_vec) {$/;"	f
+randomWithDiscreteProbability	./random.cpp	/^unsigned int randomWithDiscreteProbability(const vector<int>& accum_prob_vec) {$/;"	f
+random_uni01	./random.cpp	/^double random_uni01() {$/;"	f
+randommining	./randomMining.h	/^class randommining$/;"	c
+rawGraph	./randomMining.h	/^	GraphClassPtr rawGraph;$/;"	m	class:randommining
+remainingString	./StringTokenizer.cpp	/^std::string StringTokenizer::remainingString()$/;"	f	class:StringTokenizer
+reset	./graph.h	/^	int reset()$/;"	f	class:Edge
+reset	./graph.h	/^	void reset()$/;"	f	class:canonicalcodeStruc
+reset	./graph.h	/^	void reset()$/;"	f	class:graph
+reset	./graph.h	/^	void reset()$/;"	f	class:heapData
+reset	./graph.h	/^        void reset()$/;"	f	class:Vertex
+returnEResource	./graph.h	/^	void returnEResource(Edge* E)$/;"	f	class:myobjectpool
+returnFiveTupleResource	./graph.h	/^	void returnFiveTupleResource(fiveTuple* five)$/;"	f	class:myobjectpool
+returnGResource	./graph.h	/^	void returnGResource(graph* g)$/;"	f	class:myobjectpool
+returnVResource	./graph.h	/^	void returnVResource(Vertex* v)$/;"	f	class:myobjectpool
+returncancodeResource	./graph.h	/^	void returncancodeResource(canonicalcodeStruc* code)$/;"	f	class:myobjectpool
+returnheapDataResources	./graph.h	/^	void returnheapDataResources(heapData* h)$/;"	f	class:myobjectpool
+rhs_is_fwd	./randomMining.h	/^	bool is_fwd,rhs_is_fwd;$/;"	m	class:randommining
+rhs_lij	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+sampleTime	./randomMining.h	/^	double sampleTime,codeGenTime, insertHeapTime;$/;"	m	class:randommining
+setIntersectionTemp	./randomMining.h	/^	set<Vertex*>setIntersectionTemp;$/;"	m	class:randommining
+shouldConsider	./graph.h	/^	bool shouldConsider;\/* for doing constrained dfs *\/$/;"	m	class:Vertex
+sizeOfSubgrah	./randomMining.h	/^	int sizeOfSubgrah,supportValue,temp[10],Qsize,fillerlength;$/;"	m	class:randommining
+st	./graph.h	/^	int st;$/;"	m	struct:EdgePair
+st	./graph.h	/^        Vertex  *st;$/;"	m	class:Edge
+startTime	./graph.h	/^	int startTime;$/;"	m	class:Vertex
+start_time	./randomMining.h	/^	struct timeval start_time;$/;"	m	class:randommining	typeref:struct:randommining::timeval
+status	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+stlabel	./graph.h	/^	int stlabel;$/;"	m	struct:EdgePair
+stlabel	./graph.h	/^        int stlabel,edgelabel,endlabel;$/;"	m	class:fiveTuple
+stop_time	./randomMining.h	/^	struct timeval stop_time;$/;"	m	class:randommining	typeref:struct:randommining::timeval
+supportValue	./randomMining.h	/^	int sizeOfSubgrah,supportValue,temp[10],Qsize,fillerlength;$/;"	m	class:randommining
+supportx	./randomMining.h	/^	double tempdouble[10],supportx;$/;"	m	class:randommining
+temp	./randomMining.h	/^	int sizeOfSubgrah,supportValue,temp[10],Qsize,fillerlength;$/;"	m	class:randommining
+tempbool	./randomMining.h	/^	bool tempbool[10],ifprint;$/;"	m	class:randommining
+tempdirectioncode	./randomMining.h	/^	string directioncode,tempdirectioncode;$/;"	m	class:randommining
+tempdouble	./randomMining.h	/^	double tempdouble[10],supportx;$/;"	m	class:randommining
+time	./randomMining.h	/^	int time;$/;"	m	class:randommining
+token_str	./StringTokenizer.h	/^    std::string  token_str;$/;"	m	class:StringTokenizer
+totsup	./randomMining.h	/^	int gTot,nIter,totsup;$/;"	m	class:randommining
+uniqgxpopcount	./randomMining.h	/^	int graphIndex,gxpopcount,gypopcount,uniqgxpopcount,uniqgypopcount;$/;"	m	class:randommining
+uniqgypopcount	./randomMining.h	/^	int graphIndex,gxpopcount,gypopcount,uniqgxpopcount,uniqgypopcount;$/;"	m	class:randommining
+updateAdj	./graph.cpp	/^void graph:: updateAdj(Vertex* s, Vertex* t, bool undir)$/;"	f	class:graph
+vertexResources	./graph.h	/^	std::list<Vertex*> vertexResources;$/;"	m	class:myobjectpool
+vertexmap	./graph.h	/^	map<int,int> vertexmap;$/;"	m	class:graph
+x	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+y	./randomMining.h	/^	int i,j,k,x,y, i2,j2,i1,j1,status, _lij, rhs_lij;$/;"	m	class:randommining
+~Edge	./graph.h	/^        ~Edge()$/;"	f	class:Edge
+~StringTokenizer	./StringTokenizer.h	/^   ~StringTokenizer(){};$/;"	f	class:StringTokenizer
+~Vertex	./graph.h	/^        ~Vertex()$/;"	f	class:Vertex
+~canonicalcodeStruc	./graph.h	/^	~canonicalcodeStruc(){}$/;"	f	class:canonicalcodeStruc
+~graph	./graph.cpp	/^graph::~graph()$/;"	f	class:graph
+~heapData	./graph.h	/^        ~heapData(){$/;"	f	class:heapData
