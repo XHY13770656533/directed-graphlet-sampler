@@ -13,7 +13,7 @@ You can run the code in following way (In this version -undir should always be 1
 ./executablename -d [fileName] -i 100000 [iteration no] -s 4 [size] -q 1000 [queue size] -dir 1 
 ```
 
-## Example Run and corresponding output
+## Example Run and corresponding output (0 for out edges, 1 for in edge, 2 for bidirection edge)
 
 ```
 ./motifMCMC-directed -d ../inputfile_maker_mcmcsampler/mal1_dir_graph.txt-mcmc-format  -i 1000 -s 3 -q 1000 -dir 1
@@ -23,6 +23,7 @@ You can run the code in following way (In this version -undir should always be 1
 #(0,1,1,1,1)(1,2,1,1,1)-(0,1,)#622|0.622|
 
 ```
+You may find the code inside graphvisualizer useful for generating directed networks. 
 
 
 
