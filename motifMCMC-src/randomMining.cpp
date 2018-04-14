@@ -120,7 +120,7 @@ void randommining::parseArgs(int argc, char* argv[]) {
 	      printUsage(argv[0]);
 	      exit(0);
       }
-      if(((string)(argv[1]))!="-d" || ((string)(argv[3]))!="-i" || ((string) (argv[5]))!="-s" || ((string) (argv[7]))!="-q"|| ((string) (argv[9]))!="-undir"){
+      if(((string)(argv[1]))!="-d" || ((string)(argv[3]))!="-i" || ((string) (argv[5]))!="-s" || ((string) (argv[7]))!="-q"|| ((string) (argv[9]))!="-dir"){
 	      printUsage(argv[0]);
 	      exit(0);
       }
@@ -140,7 +140,7 @@ void randommining::parseArgs(int argc, char* argv[]) {
 		      else if( ((string)(argv[i])).compare("-q")==0){
 				      Qsize=boost::lexical_cast<int>(argv[++i]);
 		      }
-		      else if( ((string)(argv[i])).compare("-undir")==0){
+		      else if( ((string)(argv[i])).compare("-dir")==0){
 				      int val=boost::lexical_cast<int>(argv[++i]);
 				      if(val==1) isundir=true;
 				      else if(val==0) isundir=false;

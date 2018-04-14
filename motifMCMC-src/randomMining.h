@@ -80,7 +80,7 @@ public:
    	string  makeFillerForString(string mystring);  
     	void printSupportList();
     	void printUsage(char *progname) {
-		std::cout<<"Usage: "<<progname<<" -d data-file -i iteration -s sizeOfSubgrah -q (queueSize,0 by default) -undir 1/0"<<endl;
+		std::cout<<"Usage: "<<progname<<" -d data-file -i iteration -s sizeOfSubgrah -q (queueSize,0 by default) -dir 1"<<endl;
     	}
     	void ProcessInputFile();
     	void parseArgs(int argc, char* argv[]);

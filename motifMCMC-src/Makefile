@@ -3,7 +3,7 @@ CXXFLAGS+=-O2 -g
 
 .PHONY: clean
 
-motifMCMC: graph.o StringTokenizer.o random.o randomMiner.o randomMining.o dfs.o canonicalcode.o
+motifMCMC-directed: graph.o StringTokenizer.o random.o randomMiner.o randomMining.o dfs.o canonicalcode.o
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 clean:

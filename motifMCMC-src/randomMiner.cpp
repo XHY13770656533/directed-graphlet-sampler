@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Motif Miner
-// Author      : Tanay Kumar Saha (tksaha@cs.iupui.edu)
+// Author      : Tanay Kumar Saha (nataycse@gmail.com)
 // Version     : 1.0
 // Copyright   : Your copyright notice
 // Description :
