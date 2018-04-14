@@ -29,7 +29,7 @@ You may find the code inside graphvisualizer useful for generating directed netw
 
 
 # Reference
-If you are using the code for research purposes, please consider citing the following paper: 
+If you are using the code for research purposes, please consider citing one of the following paper: 
 
 ```
 @inproceedings{saha.hasan:15*2,
@@ -39,5 +39,17 @@ If you are using the code for research purposes, please consider citing the foll
   pages={13--24},
   year={2015}
 }
+
+
+@INPROCEEDINGS{acts, 
+  author={Wei Peng and Tianchong Gao and D. Sisodia and T. K. Saha and Feng Li and M. Al Hasan}, 
+  booktitle={2016 IEEE Conference on Communications and Network Security (CNS)}, 
+  title={ACTS: Extracting Android App topologiCal signature through graphleT Sampling}, 
+  year={2016}, 
+  pages={37-45}
+}
+  
 ```
+
+
 
